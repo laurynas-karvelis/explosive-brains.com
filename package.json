@@ -1,0 +1,16 @@
+{
+  "name": "explosive-brains.com",
+  "version": "1.0.0",
+  "description": "Work, personal website/blog",
+  "main": "index.js",
+  "repository": "git@github.com:laurynas-karvelis/explosive-brains.com.git",
+  "author": "Laurynas Karvelis <hello@explosive-brains.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "markdown-folder-to-html": "1.6.0"
+  },
+  "scripts": {
+    "compile": "./node_modules/markdown-folder-to-html/cli.js posts"
+  }
+}
