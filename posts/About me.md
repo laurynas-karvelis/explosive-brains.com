@@ -1,6 +1,6 @@
 ## Work
 Backend Javascript development contract services for various sizes of businesses ranging from corporations
-to startups. [Get recent CV here](./cv.pdf).
+to startups. [Get recent CV here](/_static/cv.pdf).
 
 - Main tools: Node.js, Express.js, yarn or npm
 - Testing: BDD, E2E testing with Mocha, Chai, Istambul for code coverage
