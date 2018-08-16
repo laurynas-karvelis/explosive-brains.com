@@ -2,7 +2,8 @@
 Backend Javascript development contract services for various sizes of businesses ranging from corporations
 to startups. [Get recent CV here](/_static/cv.pdf).
 
-- Main tools: Node.js, Express.js, yarn or npm
+- stack now: nodejs, GraphQL, gRPC, \[Postgre | Mongo | Influx\], Kapacitor, RabbitMQ
+- Main tools: Node.js, Express.js, yarn
 - Testing: BDD, E2E testing with Mocha, Chai, Istambul for code coverage
 - Continuous integration/deployment using Jenkins/Hudson, Bamboo
 - Git, Github, Gitlab, peer reviews
