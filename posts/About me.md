@@ -2,9 +2,23 @@
 Backend Javascript development contract services for various sizes of businesses ranging from corporations
 to startups. [Get recent CV here](/_static/cv.pdf).
 
-- stack now: nodejs, GraphQL, gRPC, \[Postgre | Mongo | Influx\], Kapacitor, RabbitMQ
-- Main tools: Node.js, Express.js, yarn
-- Testing: BDD, E2E testing with Mocha, Chai, Istambul for code coverage
+```js
+{
+    stack: {
+        dev: [nodejs, graphQL, gRpc, rest, http2],
+        persistence: [postgresql, mongodb, influxdb],
+        testing: [jest, supertest, istambul, mocha + chain],
+        style: [eslint, prettier]
+    },
+    versioning: [git, github, gitlab],
+    ci_cd: [docker, kubernetes, concourse, ]
+    
+}
+```
+
+- stack now: nodejs, graphQL, gRpc, \[postgre & mongo & influx\], kapacitor, rabbitMQ
+- Main tools: nodejs, express.js, yarn
+- Testing: jest, mocha, chai, Istambul for code coverage
 - Continuous integration/deployment using Jenkins/Hudson, Bamboo
 - Git, Github, Gitlab, peer reviews
 - Javascript, PHP, Java, C, C++, Assembler
