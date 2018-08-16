@@ -5,18 +5,18 @@ to startups. [Get recent CV here](/_static/cv.pdf).
 ```json5
 {
     stack: {
-        dev: [nodejs + apollo, graphQL, gRpc, rest, ws, http2],
-        persistence: [postgresql, mongodb, influxdb],
-        queuing: [rabbitmq, kafka, redis],
-        testing: [jest, supertest, istambul, mocha + chain],
-        code_style: [eslint, prettier]
+        dev: [ nodejs + apollo, graphQL, gRpc, rest, ws, http2 ],
+        persistence: [ postgresql, mongodb, influxdb ],
+        queuing: [ rabbitmq, kafka, redis ],
+        testing: [ jest, supertest, istambul, mocha + chai ],
+        code_style: [ eslint, prettier ]
     },
-    versioning: [git, github, gitlab],
-    ci_cd: [docker, kubernetes, concourse, bamboo | jenkins],
-    tools: [systemd, '.sh', /dev/ttyACM0, ],
-    w3c: [json_schema, html5, sass | less | css]
-    i18n: [asm, c, cpp, php, java, js, sh]
-    port443: [nginx, apache]
+    versioning: [ git, github, gitlab, quayio ],
+    ci_cd: [ docker, kubernetes, concourse, bamboo | jenkins ],
+    tools: [ systemd, '.sh', '/dev/ttyACM0' ],
+    w3c: [ json_schema, html5, sass | less | css ],
+    i18n: [ asm, c, cpp, php, java, js, sh ],
+    port443: [ nginx, apache ]
 }
 ```
 
