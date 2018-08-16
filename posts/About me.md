@@ -2,37 +2,33 @@
 Backend Javascript development contract services for various sizes of businesses ranging from corporations
 to startups. [Get recent CV here](/_static/cv.pdf).
 
-```js
+```json5
 {
     stack: {
-        dev: [nodejs, graphQL, gRpc, rest, http2],
+        dev: [nodejs + apollo, graphQL, gRpc, rest, ws, http2],
         persistence: [postgresql, mongodb, influxdb],
+        queuing: [rabbitmq, kafka, redis],
         testing: [jest, supertest, istambul, mocha + chain],
-        style: [eslint, prettier]
+        code_style: [eslint, prettier]
     },
     versioning: [git, github, gitlab],
-    ci_cd: [docker, kubernetes, concourse, ]
-    
+    ci_cd: [docker, kubernetes, concourse, bamboo | jenkins],
+    tools: [systemd, '.sh', /dev/ttyACM0, ],
+    w3c: [json_schema, html5, sass | less | css]
+    i18n: [asm, c, cpp, php, java, js, sh]
+    port443: [nginx, apache]
 }
 ```
-
-- stack now: nodejs, graphQL, gRpc, \[postgre & mongo & influx\], kapacitor, rabbitMQ
-- Main tools: nodejs, express.js, yarn
-- Testing: jest, mocha, chai, Istambul for code coverage
-- Continuous integration/deployment using Jenkins/Hudson, Bamboo
-- Git, Github, Gitlab, peer reviews
-- Javascript, PHP, Java, C, C++, Assembler
-- (x)HTML, CSS (Sass, Less), XML, XSLT
-- MongoDB, Redis, MySQL, PostgreSQL
-- Bash, systemd services
-- Nginx, Apache
 
 ## Personal life
 Main life objective - self actualization.
 
-- Epistomology, psychology, philosophy, theology, science, politics
-- Arch Linux, i3wm, dwm, vim, ranger, qutebrowser
-- Quadcopters, FPV, Betaflight
-- Crypto currencies, Forex, finance
-- Electronics, carpentry, wood work
-- Work :)
+```json5
+{
+  main: [epistomology, psychology, philosophy, theology, science, politics],
+  localhost: [arch_linux, i3wm, intelliJ, vim, qutebrowser],
+  altitude: [fpv & quadcopters, betaflight],
+  rat_race: [crypto_curr, stock_market],
+  other_joys: [electronics, carpentry, wood_work]
+}
+```
