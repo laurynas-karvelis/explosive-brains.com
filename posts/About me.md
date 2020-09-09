@@ -21,7 +21,7 @@ to startups. [Get recent CV here](/_static/cv.pdf).
 ```
 
 ## Personal life
-Main life objective - self actualization.
+Little joys in life:
 
 ```json5
 {
