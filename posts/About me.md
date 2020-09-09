@@ -5,7 +5,7 @@ to startups. [Get recent CV here](/_static/cv.pdf).
 ```json5
 {
     stack: {
-        dev: [ nodejs, serverless, rest, ws, http2 ],
+        dev: [ nodejs, serverless, restful, websockets, http2 ],
         persistence: [ postgresql, dynamodb, mongodb, influxdb ],
         queuing: [ sqs, kinesis, rabbitmq, redis ],
         testing: [ jest, ava, supertest ],
